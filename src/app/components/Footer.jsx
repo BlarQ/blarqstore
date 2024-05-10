@@ -28,28 +28,28 @@ function Footer() {
           </li>
         </ul>
 
-        <ul className="flex items-center gap-4 text-lg">
-          <li>
+        <ul className="flex items-center text-lg">
+          <li className='hover:bg-fuchsia-800 p-2 rounded-full'>
             <Link href="https://github.com/BlarQ">
               <FaGithub />
             </Link>
           </li>
-          <li>
+          <li className='hover:bg-fuchsia-800 p-2 rounded-full'>
             <Link href="https://www.linkedin.com/in/ogunlala-adedamola/">
               <FaLinkedin />
             </Link>
           </li>
-          <li>
+          <li className='hover:bg-fuchsia-800 p-2 rounded-full'>
             <Link href="https://www.instagram.com/">
               <IoLogoInstagram />
             </Link>
           </li>
-          <li>
+          <li className='hover:bg-fuchsia-800 p-2 rounded-full'>
             <Link href="https://www.youtube.com/channel/UC_YcEB6tzj9pGC-Qz4bdqXA">
               <FaYoutube />
             </Link>
           </li>
-          <li>
+          <li className='hover:bg-fuchsia-800 p-2 rounded-full'>
             <Link href="https://twitter.com/BlarQ_04">
               <FaTwitter />
             </Link>
