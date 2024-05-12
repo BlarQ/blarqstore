@@ -7,15 +7,15 @@ import Footer from "./components/Footer";
 const satisfy = Satisfy({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: "Welcome to sweet addiction",
-  description: "everything cake is here",
+  title: "BlarQStore",
+  description: "Home of Gadgets",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={satisfy.className}>
-      <div className="bg-white fixed inset-x-0 z-[1] border-b-4 border-b-gray-200">
+      <div className="bg-white fixed inset-x-0 z-[1] border-b-0 shadow-md border-b-gray-200">
 
         <TopNavbar />
         <BottomNavbar />
@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
       <div className="relative min-h-screen">
 
         {children}
+
       </div>
 
       <div className="bg-fuchsia-700 min-h-[30vh] px-16">

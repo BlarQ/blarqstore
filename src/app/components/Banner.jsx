@@ -34,7 +34,7 @@ export default function Banner() {
           </div>
 
           <div className="-ml-36 pr-16">
-            <p className="text-3xl">Mac Book PC</p>
+            <p className="text-3xl text-white">Mac Book PC</p>
             <button className="rounded-full cursor-pointer bg-white text-black font-bold py-3 px-4 my-4 hover:shadow-s hover:shadow-white hover:transition-transform hover:scale-110">
               Shop Now
             </button>
@@ -42,15 +42,15 @@ export default function Banner() {
         </div>
 
         <div className="bg-red-500 max-w-[36rem] rounded-2xl flex justify-center items-center">
-          <div className="ml-32">
-            <p className="text-3xl">Boom Headset</p>
-            <button className="rounded-full cursor-pointer bg-white text-black font-bold py-3 px-4 my-4 hover:shadow-s hover:shadow-white hover:transition-transform hover:scale-110">
+          <div className="grid items-center justify-center ml-20">
+            <p className="text-3xl text-right ml-5 text-white">Headset</p>
+            <button className="rounded-full cursor-pointer bg-white text-black font-bold ml-6 -mr-1 py-3 my-4 hover:shadow-s hover:shadow-white hover:transition-transform hover:scale-110">
               Shop Now
             </button>
           </div>
 
           
-          <div className="">
+          <div className="-mt-32">
             <img src="headset.png" width="500px" />
           </div>
         </div>

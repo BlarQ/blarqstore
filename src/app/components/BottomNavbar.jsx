@@ -13,7 +13,7 @@ export const BottomNavbar = () => {
         <li><Link href='/catalog'>Catalog</Link></li>
         <li><Link href='/delivery'>Delivery</Link></li>
         <li><Link href='/about'>About</Link></li>
-        <li><Link href='/contact'>Contact</Link></li>
+        <li><Link href='/contact'>Contacts</Link></li>
       </ul>
 
       <ul className='flex gap-4 items-center text-lg cursor-pointer'>
