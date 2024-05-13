@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <BottomNavbar />
       </div>
 
-      <div className="relative min-h-screen">
+      <div className="relative min-h-screen bg-slate-50">
 
         {children}
 

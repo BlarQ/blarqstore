@@ -33,8 +33,8 @@ export default function About() {
             <img src='team.jpg' className='h-[26rem] w-[95%] rounded-2xl shadow-lg my-7 ml-5'/>
         </div>
 
-        <div>
-
+        <div className='{styles.fixedimg} bg-transparent'>
+          <h2>Welcome</h2>
         </div>
     </div>
   )
