@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
 
       </div>
 
-      <div className="bg-fuchsia-700 min-h-[30vh] px-16">
+      <div className="bg-fuchsia-700 inset-y-64 min-h-[30vh] px-16">
 
         <Footer />
       </div>

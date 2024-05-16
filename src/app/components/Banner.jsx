@@ -1,5 +1,8 @@
+import Image from 'next/image';
 import styles from './banner.module.css'
 import { CgMouse } from "react-icons/cg"
+import { CakeMain } from './CakeMain';
+import { PastsMain } from './PastriesMain';
 
 
 export default function Banner() {
@@ -30,7 +33,7 @@ export default function Banner() {
       <div className="bg-slate-50 min-h-[70vh] flex flex-row gap-10 py-36 px-20">
         <div className="bg-yellow-400 max-w-[36rem] rounded-2xl flex justify-center items-center ">
           <div className="-mt-32 -ml-10 pl-8">
-            <img src="laptop.png" width="500px" />
+            <Image src="/laptop.png" alt='' height='400' width="500" />
           </div>
 
           <div className="-ml-36 pr-16">
@@ -51,10 +54,12 @@ export default function Banner() {
 
           
           <div className="-mt-32">
-            <img src="headset.png" width="500px" />
+            <Image src="/headset.png" alt= '' width="500" height='300'/>
           </div>
         </div>
       </div>
+      <CakeMain />
+      <PastsMain />
     </div>
   );
 }
